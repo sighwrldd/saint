@@ -34,6 +34,11 @@
             0% { background-position: 0% 50%; }
             100% { background-position: 100% 50%; }
         }
+        section {
+            border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+            padding-bottom: 40px;
+            margin-bottom: 40px;
+        }
         table {
             width: 80%;
             max-width: 800px;
@@ -50,7 +55,8 @@
             border-bottom: 1px solid rgba(255, 255, 255, 0.2);
         }
         th {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: #ffffff; /* Changed from purple gradient to white */
+            color: #000000; /* Text color for contrast on white background */
             font-weight: bold;
         }
         tr:hover {
@@ -59,89 +65,96 @@
         @media (max-width: 768px) {
             table { width: 100%; font-size: 14px; }
             h1 { font-size: 2em; }
+            section { padding-bottom: 20px; margin-bottom: 20px; }
         }
     </style>
 </head>
 <body>
-    <h1>Saint Clan Best Players</h1>
-    <p>Top 10 best players in our clan!</p>
+    <section>
+        <h1>Saint Clan Best Players</h1>
+        <p>Top 10 best players in our clan!</p>
+    </section>
     
-    <table>
-        <thead>
-            <tr>
-                <th>Rank</th>
-                <th>Player Name</th>
-                <th>Notes</th>
-                <th>Skills</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td class="rainbow-text">SighWrld</td>
-                <td>Sigma Pro</td>
-                <td>Can Jap: ✅</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td class="rainbow-text">SighWrld</td>
-                <td>Sigma Pro</td>
-                <td>Can Jap: ❌</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td class="rainbow-text">SighWrld</td>
-                <td>Sigma Pro</td>
-                <td>Can Jap: ✅</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td class="rainbow-text">SighWrld</td>
-                <td>Sigma Pro</td>
-                <td>Can Jap: ❌</td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td class="rainbow-text">SighWrld</td>
-                <td>Sigma Pro</td>
-                <td>Can Jap: ✅</td>
-            </tr>
-            <tr>
-                <td>6</td>
-                <td class="rainbow-text">SighWrld</td>
-                <td>Sigma Pro</td>
-                <td>Can Jap: ❌</td>
-            </tr>
-            <tr>
-                <td>7</td>
-                <td class="rainbow-text">SighWrld</td>
-                <td>Sigma Pro</td>
-                <td>Can Jap: ✅</td>
-            </tr>
-            <tr>
-                <td>8</td>
-                <td class="rainbow-text">SighWrld</td>
-                <td>Sigma Pro</td>
-                <td>Can Jap: ❌</td>
-            </tr>
-            <tr>
-                <td>9</td>
-                <td class="rainbow-text">SighWrld</td>
-                <td>Sigma Pro</td>
-                <td>Can Jap: ✅</td>
-            </tr>
-            <tr>
-                <td>10</td>
-                <td class="rainbow-text">SighWrld</td>
-                <td>Sigma Pro</td>
-                <td>Can Jap: ❌</td>
-            </tr>
-        </tbody>
-    </table>
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Player Name</th>
+                    <th>Notes</th>
+                    <th>Skills</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td class="rainbow-text">SighWrld</td>
+                    <td>Sigma Pro</td>
+                    <td>Can Jap: ✅</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td class="rainbow-text">SighWrld</td>
+                    <td>Sigma Pro</td>
+                    <td>Can Jap: ❌</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td class="rainbow-text">SighWrld</td>
+                    <td>Sigma Pro</td>
+                    <td>Can Jap: ✅</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td class="rainbow-text">SighWrld</td>
+                    <td>Sigma Pro</td>
+                    <td>Can Jap: ❌</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td class="rainbow-text">SighWrld</td>
+                    <td>Sigma Pro</td>
+                    <td>Can Jap: ✅</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td class="rainbow-text">SighWrld</td>
+                    <td>Sigma Pro</td>
+                    <td>Can Jap: ❌</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td class="rainbow-text">SighWrld</td>
+                    <td>Sigma Pro</td>
+                    <td>Can Jap: ✅</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td class="rainbow-text">SighWrld</td>
+                    <td>Sigma Pro</td>
+                    <td>Can Jap: ❌</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td class="rainbow-text">SighWrld</td>
+                    <td>Sigma Pro</td>
+                    <td>Can Jap: ✅</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td class="rainbow-text">SighWrld</td>
+                    <td>Sigma Pro</td>
+                    <td>Can Jap: ❌</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
     
-    <footer style="margin-top: 40px; font-size: 0.9em; color: #aaa;">
-        <p>&copy; 2025 Saint Clan | Built with ❤️ for Agar.io pros</p>
-        <p>Not Knuck that fuckass nigga</p>
-    </footer>
+    <section>
+        <footer style="margin-top: 40px; font-size: 0.9em; color: #aaa;">
+            <p>&copy; 2025 Saint Clan | Built with ❤️ for Agar.io pros</p>
+            <p>Not Knuck that fuckass nigga</p>
+        </footer>
+    </section>
 </body>
 </html>
